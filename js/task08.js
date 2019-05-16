@@ -5,5 +5,6 @@ var x = paseInt(prompt("How many people?"));
 for (var i = 0; i < x.length; i++) {
   var age = parseInt(prompt("How old are you old?"));
   console.log(age);
-  
+
 }
+ 
