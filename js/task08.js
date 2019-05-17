@@ -5,7 +5,7 @@ var x = parseInt(prompt("How many people?"));
 var oldest = 0;
 
 for (var i = 0; i < x.length; i++) {
-  var age = parseInt(prompt("How old are you old?"));
+  var age = parseInt(prompt("How old are you?"));
   console.log(age);
   if (oldest<age) {
     oldest = age;
